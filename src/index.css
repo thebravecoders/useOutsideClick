@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.dropdown {
+  border: solid 1px #8f8f8f;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.dropList {
+  background-color: brown;
+  color: #fff;
+  position: absolute;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: chocolate;
+}
